@@ -13,7 +13,8 @@ services:
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
-      - 127.0.0.1:8080:8080
+      - 8080:8000
+
   image_ai-mysql:
     image: mysql:8.0.30
     # volumes:
@@ -26,5 +27,5 @@ services:
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
-      - 127.0.0.1:3306:3306
+      - 3306:3306
     command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
