@@ -50,6 +50,7 @@ public class HistoryResource {
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
     @PostMapping("/histories")
+    //create a new history
     public ResponseEntity<HistoryDTO> createHistory(@Valid @RequestBody HistoryDTO historyDTO) throws URISyntaxException {
         log.debug("REST request to save History : {}", historyDTO);
         if (historyDTO.getId() != null) {
