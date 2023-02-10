@@ -1,0 +1,25 @@
+{
+  "imageAiApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Status",
+        "createOrEditLabel": "Создать или отредактировать Status",
+        "notFound": "Statuses не найдено"
+      },
+      "created": "Новый Status создан с идентификатором {{ param }}",
+      "updated": "Status обновлен с идентификатором {{ param }}",
+      "deleted": "Status удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "id": "ID",
+      "name": "Name",
+      "history": "History"
+    }
+  }
+}

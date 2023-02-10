@@ -1,0 +1,25 @@
+{
+  "imageAiApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Status erstellen",
+        "createOrEditLabel": "Status erstellen oder bearbeiten",
+        "notFound": "Keine Statuses gefunden"
+      },
+      "created": "Status erstellt mit ID {{ param }}",
+      "updated": "Status aktualisiert mit ID {{ param }}",
+      "deleted": "Status gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Status {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "id": "ID",
+      "name": "Name",
+      "history": "History"
+    }
+  }
+}

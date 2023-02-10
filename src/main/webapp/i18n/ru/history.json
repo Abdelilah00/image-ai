@@ -1,0 +1,29 @@
+{
+  "imageAiApp": {
+    "history": {
+      "home": {
+        "title": "Histories",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый History",
+        "createOrEditLabel": "Создать или отредактировать History",
+        "notFound": "Histories не найдено"
+      },
+      "created": "Новый History создан с идентификатором {{ param }}",
+      "updated": "History обновлен с идентификатором {{ param }}",
+      "deleted": "History удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить History {{ id }}?"
+      },
+      "detail": {
+        "title": "History"
+      },
+      "id": "ID",
+      "imageSource": "Image Source",
+      "imageDestination": "Image Destination",
+      "duration": "Duration",
+      "user": "User",
+      "model": "Model",
+      "status": "Status"
+    }
+  }
+}

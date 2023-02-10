@@ -1,0 +1,29 @@
+{
+  "imageAiApp": {
+    "history": {
+      "home": {
+        "title": "Histories",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "History erstellen",
+        "createOrEditLabel": "History erstellen oder bearbeiten",
+        "notFound": "Keine Histories gefunden"
+      },
+      "created": "History erstellt mit ID {{ param }}",
+      "updated": "History aktualisiert mit ID {{ param }}",
+      "deleted": "History gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll History {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "History"
+      },
+      "id": "ID",
+      "imageSource": "Image Source",
+      "imageDestination": "Image Destination",
+      "duration": "Duration",
+      "user": "User",
+      "model": "Model",
+      "status": "Status"
+    }
+  }
+}

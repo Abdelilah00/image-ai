@@ -1,0 +1,31 @@
+{
+  "applications": ["image_ai"],
+  "changelogDate": "20230210122013",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_details",
+  "fields": [
+    {
+      "fieldName": "balance",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserDetails",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "service": "serviceImpl"
+}
