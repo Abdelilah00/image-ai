@@ -27,6 +27,7 @@ public class ImageAiApp {
 
     private final Environment env;
 
+
     public ImageAiApp(Environment env) {
         this.env = env;
     }
